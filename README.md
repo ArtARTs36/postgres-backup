@@ -24,7 +24,7 @@ services:
       STORAGE_S3_BUCKET: postgres-backups
       STORAGE_S3_USE_SSL: 'true'
 
-      PG_DATABASE: core,content-discovery
+      PG_DATABASE: users, posts
       PG_USER: iuser
       PG_PASSWORD_FILE: /run/secrets/infra-postgres18-password
       PG_HOST: postgres18
